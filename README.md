@@ -1,5 +1,7 @@
-<h1 align="center">Hi 👋, I'm Enes </h1>
+<h1 align="center">Hi 👋, I'm Enes 🔹 </h1>
 <h3 align="center">🚀 Passionate about Software, DevOps, and Building Innovative Projects</h3>
+
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/YOUR-LINK" target="_blank">
@@ -12,6 +14,9 @@
     <img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
 </p>
+
+
+
 ## 👨‍💻 About Me
 
 - 🌱 I’m currently learning **DevOps, ERP Systems, and Python**
