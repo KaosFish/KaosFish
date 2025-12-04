@@ -2,7 +2,7 @@
 <h3 align="center">🚀 CS Student • DevOps & AI Builder • Mobile App Developer</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINK" target="_blank">
+  <a href="https://www.linkedin.com/in/enes-kirgil-975720293/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank">
