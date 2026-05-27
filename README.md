@@ -99,6 +99,24 @@
 
 > Built ground-up in SwiftUI with **zero third-party SDKs**. Fully offline, no accounts, no tracking, no ads.
 
+<p align="center">
+  <img src="assets/screenshots/mizan/01.jpg" width="180" alt="Mizan home"/>
+  <img src="assets/screenshots/mizan/02.jpg" width="180" alt="Mizan prayer detail"/>
+  <img src="assets/screenshots/mizan/03.jpg" width="180" alt="Mizan Quran"/>
+  <img src="assets/screenshots/mizan/04.jpg" width="180" alt="Mizan Qibla"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/mizan/05.jpg" width="180" alt="Mizan calendar"/>
+  <img src="assets/screenshots/mizan/06.jpg" width="180" alt="Mizan tasbih"/>
+  <img src="assets/screenshots/mizan/07.jpg" width="180" alt="Mizan hadith"/>
+  <img src="assets/screenshots/mizan/08.jpg" width="180" alt="Mizan learn"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/mizan/09.jpg" width="180" alt="Mizan journal"/>
+  <img src="assets/screenshots/mizan/10.jpg" width="180" alt="Mizan settings"/>
+  <img src="assets/screenshots/mizan/11.jpg" width="180" alt="Mizan memorization"/>
+</p>
+
 - ⏱️ Live prayer-time countdown with arc-progress ring and **forbidden-time windows** (Fajr/Asr)
 - 🧭 Magnetometer-backed **Qibla compass** with Kaaba marker + distance to Makkah
 - 📖 Full **114-surah Quran reader** (Arabic + transliteration + English) with persistent bookmarks
@@ -118,6 +136,29 @@
 ### 🈶 **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
 
 > A gamified learning platform with progression, competition, and live social — built for daily use, not toy demos.
+
+<p align="center">
+  <img src="assets/screenshots/moshimosh/journey_page.jpg" width="180" alt="MoshiMosh journey"/>
+  <img src="assets/screenshots/moshimosh/lesson_theme_01.jpg" width="180" alt="MoshiMosh lesson"/>
+  <img src="assets/screenshots/moshimosh/lesson_theme_02.jpg" width="180" alt="MoshiMosh lesson 2"/>
+  <img src="assets/screenshots/moshimosh/wordpractice.jpg" width="180" alt="MoshiMosh word practice"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/moshimosh/alphabet_page.jpg" width="180" alt="MoshiMosh alphabet"/>
+  <img src="assets/screenshots/moshimosh/matchmadnesslevels.jpg" width="180" alt="Match Madness levels"/>
+  <img src="assets/screenshots/moshimosh/careless_maniac_mode.jpg" width="180" alt="Careless Maniac mode"/>
+  <img src="assets/screenshots/moshimosh/carelessmaniacmodeinside.jpg" width="180" alt="Careless Maniac inside"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/moshimosh/leaderboard.jpg" width="180" alt="MoshiMosh leaderboard"/>
+  <img src="assets/screenshots/moshimosh/profile_page.jpg" width="180" alt="MoshiMosh profile"/>
+  <img src="assets/screenshots/moshimosh/shop_page.jpg" width="180" alt="MoshiMosh shop"/>
+  <img src="assets/screenshots/moshimosh/style_shop.jpg" width="180" alt="MoshiMosh style shop"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/moshimosh/settings_page.jpg" width="180" alt="MoshiMosh settings"/>
+  <img src="assets/screenshots/moshimosh/settings_animations.jpg" width="180" alt="MoshiMosh animations"/>
+</p>
 
 - 🇯🇵 Adaptive **Kanji ↔ Kana ↔ Romaji** rendering tuned to user reading preference
 - 🎮 **Match Madness** + **Careless Maniac** mini-games + **Memory-Weave** personal mnemonics
@@ -141,6 +182,8 @@
 
 > The dashboard I wished existed when I started shipping things. Money + audience + AI advice, all in one place.
 
+<p align="center"><i>📸 Screenshots coming soon — final pass before public release.</i></p>
+
 - 📊 Multi-project **budget tracking** with timeline + grid views and pinned favorites
 - 💳 **Stripe** + **RevenueCat** revenue ingestion side-by-side with expenses
 - 📈 Instagram / YouTube / TikTok metrics aggregated next to your finances
@@ -162,6 +205,18 @@
 ### 🪝 **Snag** — *Self-hosted media downloader, three destinations*
 
 > Paste a URL → pick a destination → stream the file. No public services, no leaks, runs on my own machine.
+
+<p align="center">
+  <img src="assets/screenshots/snag/01.jpg" width="180" alt="Snag login"/>
+  <img src="assets/screenshots/snag/02.jpg" width="180" alt="Snag home"/>
+  <img src="assets/screenshots/snag/03.jpg" width="180" alt="Snag preview"/>
+  <img src="assets/screenshots/snag/04.jpg" width="180" alt="Snag destinations"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/snag/05.jpg" width="180" alt="Snag library"/>
+  <img src="assets/screenshots/snag/06.jpg" width="180" alt="Snag history"/>
+  <img src="assets/screenshots/snag/07.jpg" width="180" alt="Snag settings"/>
+</p>
 
 - 🔗 Paste any **yt-dlp**-supported URL → route to local folder, Google Drive, or remote machine via SFTP
 - 🔐 **TOTP 2FA** layered on top of Cloudflare Access (defense-in-depth)
@@ -185,6 +240,8 @@
 
 > Not a CV. A piece of software you visit.
 
+<p align="center"><i>🌐 See it live → <a href="https://shinka.ca">shinka.ca</a> · screenshots coming once the next iteration lands.</i></p>
+
 - 🌗 Dark/light theme with `prefers-color-scheme` detection
 - 🇯🇵 Bilingual **EN/JA** content via next-intl with locale-aware routing
 - 🎬 **Framer Motion** + **GSAP** choreography on every section
@@ -206,6 +263,8 @@
 ### 🏋️ **Fit4** — *Fitness + habit tracking, social-first*
 
 > Workouts you actually log, habits that actually stick, friends keeping you honest.
+
+<p align="center"><i>🚧 Currently in active development — screenshots coming soon.</i></p>
 
 - 📊 Offline-first workout logging via **Hive**, Firestore-synced social graph
 - 🔑 Multi-auth: **Google + Apple + Facebook** + email/password
