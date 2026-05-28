@@ -11,45 +11,84 @@
       <stop offset="100%" stop-color="#F4B3B8"/>
     </linearGradient>
     <linearGradient id="branch" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#5A3522"/>
-      <stop offset="100%" stop-color="#3A2310"/>
+      <stop offset="0%" stop-color="#4A2818"/>
+      <stop offset="100%" stop-color="#2A1808"/>
     </linearGradient>
     <path id="petal" d="M0 -10 C 7 -5, 9 5, 0 10 C -9 5, -7 -5, 0 -10 Z"/>
     <g id="blossom">
-      <g fill="#FFEDF0">
-        <ellipse cx="0" cy="-6" rx="4.2" ry="6"/>
-        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(72)"/>
-        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(144)"/>
-        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(216)"/>
-        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(288)"/>
+      <g fill="#FFB6C1" stroke="#C97689" stroke-width="0.6">
+        <ellipse cx="0" cy="-6" rx="4.5" ry="6.3"/>
+        <ellipse cx="0" cy="-6" rx="4.5" ry="6.3" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-6" rx="4.5" ry="6.3" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-6" rx="4.5" ry="6.3" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-6" rx="4.5" ry="6.3" transform="rotate(288)"/>
       </g>
-      <circle r="2.4" fill="#FFB6C1"/>
-      <circle r="1" fill="#A0522D"/>
+      <circle r="2.8" fill="#FF6F8C"/>
+      <circle r="1.3" fill="#4A2818"/>
     </g>
+    <clipPath id="balloon-clip">
+      <path d="M 0 0 C 42 -8 62 32 56 72 C 50 110 26 130 0 130 C -26 130 -50 110 -56 72 C -62 32 -42 -8 0 0 Z
+               M -16 130 L 16 130 L 11 152 L -11 152 Z"/>
+    </clipPath>
   </defs>
 
   <!-- Sky -->
   <rect width="1200" height="320" fill="url(#sky)"/>
 
   <!-- Sakura branch — curves in from the top-right -->
-  <g fill="none" stroke="url(#branch)" stroke-linecap="round" opacity="0.85">
-    <path d="M 1200 30 Q 1080 55 980 75 Q 870 90 760 80" stroke-width="6"/>
-    <path d="M 980 75 Q 990 110 985 145" stroke-width="3"/>
-    <path d="M 870 88  Q 855 120 860 152" stroke-width="3"/>
-    <path d="M 760 80  Q 740 100 720 118" stroke-width="2.5"/>
+  <g fill="none" stroke="url(#branch)" stroke-linecap="round">
+    <path d="M 1200 30 Q 1080 55 980 75 Q 870 90 760 80" stroke-width="9"/>
+    <path d="M 980 75 Q 990 110 985 145" stroke-width="5"/>
+    <path d="M 870 88  Q 855 120 860 152" stroke-width="5"/>
+    <path d="M 760 80  Q 740 100 720 118" stroke-width="4"/>
   </g>
 
-  <!-- Blossom clusters sitting on the branch -->
+  <!-- Blossom clusters sitting on the branch — bigger + more saturated for visibility -->
   <g>
-    <use href="#blossom" transform="translate(1080 50) scale(1.4)"/>
-    <use href="#blossom" transform="translate(1110 60) scale(1.1)"/>
-    <use href="#blossom" transform="translate(1050 68) scale(1.0)"/>
-    <use href="#blossom" transform="translate(980 75)  scale(1.5)"/>
-    <use href="#blossom" transform="translate(995 145) scale(1.2)"/>
-    <use href="#blossom" transform="translate(875 88)  scale(1.5)"/>
-    <use href="#blossom" transform="translate(862 152) scale(1.1)"/>
-    <use href="#blossom" transform="translate(760 80)  scale(1.3)"/>
-    <use href="#blossom" transform="translate(722 118) scale(1.0)"/>
+    <use href="#blossom" transform="translate(1080 48) scale(2.0)"/>
+    <use href="#blossom" transform="translate(1118 62) scale(1.5)"/>
+    <use href="#blossom" transform="translate(1048 70) scale(1.5)"/>
+    <use href="#blossom" transform="translate(980 78)  scale(2.1)"/>
+    <use href="#blossom" transform="translate(998 148) scale(1.7)"/>
+    <use href="#blossom" transform="translate(875 92)  scale(2.0)"/>
+    <use href="#blossom" transform="translate(862 156) scale(1.6)"/>
+    <use href="#blossom" transform="translate(760 82)  scale(1.8)"/>
+    <use href="#blossom" transform="translate(722 120) scale(1.5)"/>
+    <use href="#blossom" transform="translate(820 78)  scale(1.4)"/>
+    <use href="#blossom" transform="translate(925 80)  scale(1.5)"/>
+  </g>
+
+  <!-- Hot air balloon — sakura pastel theme, gentle floating sway -->
+  <g>
+    <g clip-path="url(#balloon-clip)">
+      <rect x="-65" y="-15" width="130" height="175" fill="#F8A5B0"/>
+      <rect x="-38" y="-15" width="14" height="175" fill="#FFF1F4"/>
+      <rect x="24"  y="-15" width="14" height="175" fill="#FFF1F4"/>
+      <rect x="-8"  y="-15" width="16" height="175" fill="#B5E5EC"/>
+      <rect x="-58" y="-15" width="6" height="175" fill="#FFCBD3"/>
+      <rect x="52"  y="-15" width="6" height="175" fill="#FFCBD3"/>
+    </g>
+    <!-- Envelope outline -->
+    <path d="M 0 0 C 42 -8 62 32 56 72 C 50 110 26 130 0 130 C -26 130 -50 110 -56 72 C -62 32 -42 -8 0 0 Z"
+          fill="none" stroke="#3A2310" stroke-width="1.2" opacity="0.55"/>
+    <!-- Neck below envelope -->
+    <path d="M -16 130 L 16 130 L 11 152 L -11 152 Z"
+          fill="none" stroke="#3A2310" stroke-width="1" opacity="0.6"/>
+    <!-- Ropes -->
+    <line x1="-11" y1="152" x2="-14" y2="172" stroke="#3A2310" stroke-width="1" opacity="0.7"/>
+    <line x1="11"  y1="152" x2="14"  y2="172" stroke="#3A2310" stroke-width="1" opacity="0.7"/>
+    <line x1="-4"  y1="152" x2="-4"  y2="172" stroke="#3A2310" stroke-width="0.8" opacity="0.6"/>
+    <line x1="4"   y1="152" x2="4"   y2="172" stroke="#3A2310" stroke-width="0.8" opacity="0.6"/>
+    <!-- Basket -->
+    <rect x="-16" y="172" width="32" height="22" rx="3" fill="#5A3522"/>
+    <rect x="-16" y="172" width="32" height="22" rx="3" fill="none" stroke="#2A1808" stroke-width="1.2"/>
+    <line x1="-8" y1="172" x2="-8" y2="194" stroke="#2A1808" stroke-width="0.6" opacity="0.55"/>
+    <line x1="0"  y1="172" x2="0"  y2="194" stroke="#2A1808" stroke-width="0.6" opacity="0.55"/>
+    <line x1="8"  y1="172" x2="8"  y2="194" stroke="#2A1808" stroke-width="0.6" opacity="0.55"/>
+    <!-- Floating sway: gentle vertical bob + tiny horizontal drift -->
+    <animateTransform attributeName="transform" type="translate"
+                      values="290 70; 293 60; 290 70; 287 60; 290 70"
+                      dur="7s" repeatCount="indefinite"/>
   </g>
 
   <!-- Falling petals (18) -->
