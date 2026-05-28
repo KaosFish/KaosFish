@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,50:00ffff,100:b8ff00&height=220&section=header&text=Enes%20Kirgil&fontSize=72&fontColor=0a0a0a&animation=fadeIn" alt="Enes Kirgil — animated header banner"/>
+  <img src="assets/animations/banner.svg" width="100%" alt="Enes Kirgil — sakura banner with drifting petals"/>
 </p>
 
 <h1 align="center">Hi 👋, I'm Enes 🔹</h1>
@@ -24,11 +24,7 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="assets/animations/blossoms.svg" width="100%" alt="Cherry blossom petals drifting"/>
-</p>
-
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ## 👨‍💻 About Me
 
@@ -39,7 +35,7 @@
 - 🐧 Daily driver of **Arch Linux + Hyprland** — terminal-first, dotfile-obsessed
 - 🎯 Goal: ship real products that solve real problems for real people
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ## 🧰 Tech Stack
 
@@ -99,7 +95,7 @@
 - Voice generation via **ElevenLabs** with content-addressable audio hosting on **Cloudflare R2**
 - Designing custom ChatGPT-style frontends with **Vercel AI SDK** + **CopilotKit**
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ## 🚧 Featured Projects
 
@@ -121,7 +117,7 @@
   <img src="https://img.shields.io/badge/XcodeGen-1575F9?style=flat-square&logo=xcode&logoColor=white"/>
 </p>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ### <img src="assets/icons/moshimosh.png" width="28" alt="MoshiMosh icon"/> **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
 
@@ -143,7 +139,7 @@
   <img src="https://img.shields.io/badge/Cloudflare%20R2-F38020?style=flat-square&logo=cloudflare&logoColor=white"/>
 </p>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ### <img src="assets/icons/pocket.png" width="28" alt="Pocket icon"/> **Pocket** — *Financial OS for indie makers and creators*
 
@@ -165,7 +161,7 @@
   <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white"/>
 </p>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ### <img src="assets/icons/snag.svg" width="28" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
 
@@ -187,7 +183,7 @@
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
 </p>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ### 🌐 [**Portfolio — shinka.ca**](https://shinka.ca) — *Personal site, designed like software*
 
@@ -209,7 +205,7 @@
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white"/>
 </p>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ### <img src="assets/icons/fit4.png" width="28" alt="Fit4 icon"/> **Fit4** — *Fitness + habit tracking, social-first*
 
@@ -229,7 +225,7 @@
   <img src="https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white"/>
 </p>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 ## 🐍 Watch the snake eat my contributions
 
@@ -239,7 +235,7 @@
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/KaosFish/KaosFish/output/github-contribution-grid-snake.svg"/>
 </picture>
 
-<p align="center"><img src="assets/animations/divider.svg" width="100%" alt=""/></p>
+---
 
 <p align="center">
   <b>My system after <code>rm -rf</code></b><br>

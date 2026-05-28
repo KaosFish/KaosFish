@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Enes Kirgil — sakura banner">
+  <!--
+    Sakura banner — pale dusk sky with a sakura branch and a slow rain of
+    petals drifting past the name. All motion is pure SVG SMIL
+    (animateMotion + animateTransform), no JS, no external services.
+  -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFF1F4"/>
+      <stop offset="55%"  stop-color="#FBD9DD"/>
+      <stop offset="100%" stop-color="#F4B3B8"/>
+    </linearGradient>
+    <linearGradient id="branch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5A3522"/>
+      <stop offset="100%" stop-color="#3A2310"/>
+    </linearGradient>
+    <path id="petal" d="M0 -10 C 7 -5, 9 5, 0 10 C -9 5, -7 -5, 0 -10 Z"/>
+    <g id="blossom">
+      <g fill="#FFEDF0">
+        <ellipse cx="0" cy="-6" rx="4.2" ry="6"/>
+        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(288)"/>
+      </g>
+      <circle r="2.4" fill="#FFB6C1"/>
+      <circle r="1" fill="#A0522D"/>
+    </g>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="320" fill="url(#sky)"/>
+
+  <!-- Sakura branch — curves in from the top-right -->
+  <g fill="none" stroke="url(#branch)" stroke-linecap="round" opacity="0.85">
+    <path d="M 1200 30 Q 1080 55 980 75 Q 870 90 760 80" stroke-width="6"/>
+    <path d="M 980 75 Q 990 110 985 145" stroke-width="3"/>
+    <path d="M 870 88  Q 855 120 860 152" stroke-width="3"/>
+    <path d="M 760 80  Q 740 100 720 118" stroke-width="2.5"/>
+  </g>
+
+  <!-- Blossom clusters sitting on the branch -->
+  <g>
+    <use href="#blossom" transform="translate(1080 50) scale(1.4)"/>
+    <use href="#blossom" transform="translate(1110 60) scale(1.1)"/>
+    <use href="#blossom" transform="translate(1050 68) scale(1.0)"/>
+    <use href="#blossom" transform="translate(980 75)  scale(1.5)"/>
+    <use href="#blossom" transform="translate(995 145) scale(1.2)"/>
+    <use href="#blossom" transform="translate(875 88)  scale(1.5)"/>
+    <use href="#blossom" transform="translate(862 152) scale(1.1)"/>
+    <use href="#blossom" transform="translate(760 80)  scale(1.3)"/>
+    <use href="#blossom" transform="translate(722 118) scale(1.0)"/>
+  </g>
+
+  <!-- Falling petals (18) -->
+  <g>
+    <use href="#petal" fill="#FFCBD3" opacity="0.9">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M 60 -20 Q 90 100 80 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFB6C1" opacity="0.85" transform="scale(1.3)">
+      <animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M 140 -25 Q 180 110 170 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="7s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFEDF0" opacity="0.95" transform="scale(0.9)">
+      <animateMotion dur="8s" begin="-4s" repeatCount="indefinite" path="M 230 -15 Q 250 80 270 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFCBD3" opacity="0.8" transform="scale(1.2)">
+      <animateMotion dur="12s" begin="-1s" repeatCount="indefinite" path="M 320 -30 Q 360 120 340 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFD9DE" opacity="0.9">
+      <animateMotion dur="10s" begin="-6s" repeatCount="indefinite" path="M 410 -20 Q 440 100 430 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFB6C1" opacity="0.85" transform="scale(1.1)">
+      <animateMotion dur="9.5s" begin="-3s" repeatCount="indefinite" path="M 510 -25 Q 540 90 520 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFEDF0" opacity="0.95" transform="scale(0.8)">
+      <animateMotion dur="7s" begin="-5s" repeatCount="indefinite" path="M 600 -15 Q 620 80 640 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFCBD3" opacity="0.9" transform="scale(1.3)">
+      <animateMotion dur="11.5s" begin="-7s" repeatCount="indefinite" path="M 690 -25 Q 720 110 700 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="7.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFD9DE" opacity="0.85">
+      <animateMotion dur="8.5s" begin="-2s" repeatCount="indefinite" path="M 790 -20 Q 820 90 810 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFB6C1" opacity="0.9" transform="scale(1.2)">
+      <animateMotion dur="10.5s" begin="-4s" repeatCount="indefinite" path="M 880 -30 Q 920 100 900 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="6.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFEDF0" opacity="0.95" transform="scale(0.9)">
+      <animateMotion dur="9s" begin="-6s" repeatCount="indefinite" path="M 960 -15 Q 990 80 980 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFCBD3" opacity="0.85" transform="scale(1.1)">
+      <animateMotion dur="12s" begin="-1s" repeatCount="indefinite" path="M 1060 -20 Q 1090 110 1070 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="7s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFD9DE" opacity="0.9" transform="scale(1.4)">
+      <animateMotion dur="13s" begin="-8s" repeatCount="indefinite" path="M 1150 -30 Q 1180 130 1160 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFB6C1" opacity="0.8">
+      <animateMotion dur="9.5s" begin="-5s" repeatCount="indefinite" path="M 380 -20 Q 420 90 400 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFEDF0" opacity="0.95" transform="scale(0.9)">
+      <animateMotion dur="11s" begin="-3s" repeatCount="indefinite" path="M 470 -15 Q 500 95 480 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFCBD3" opacity="0.9" transform="scale(1.2)">
+      <animateMotion dur="10s" begin="-7s" repeatCount="indefinite" path="M 740 -25 Q 770 95 760 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFD9DE" opacity="0.85">
+      <animateMotion dur="8.5s" begin="-4s" repeatCount="indefinite" path="M 850 -20 Q 880 100 870 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" fill="#FFB6C1" opacity="0.9" transform="scale(1.1)">
+      <animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M 1000 -25 Q 1040 110 1020 360"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="7s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- Name -->
+  <text x="600" y="195" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="84" font-weight="700"
+        fill="#3D2419" opacity="0.94"
+        style="letter-spacing: 4px;">
+    Enes Kirgil
+  </text>
+
+  <!-- Subtitle: 進化 (Shinka) -->
+  <text x="600" y="240" text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="22" font-style="italic" font-weight="400"
+        fill="#5A3522" opacity="0.78"
+        style="letter-spacing: 8px;">
+    進化 · shinka
+  </text>
+</svg>
