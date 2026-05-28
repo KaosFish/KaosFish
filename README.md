@@ -95,7 +95,7 @@
 
 ## 🚧 Featured Projects
 
-### 🕌 **Mizan** — *Privacy-first Muslim prayer companion (SwiftUI)*
+### <img src="assets/icons/mizan.png" width="28" alt="Mizan icon"/> **Mizan** — *Privacy-first Muslim prayer companion (SwiftUI)*
 
 > Built ground-up in SwiftUI with **zero third-party SDKs**. Fully offline, no accounts, no tracking, no ads.
 
@@ -115,7 +115,7 @@
 
 ---
 
-### 🈶 **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
+### <img src="assets/icons/moshimosh.png" width="28" alt="MoshiMosh icon"/> **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
 
 > A gamified learning platform with progression, competition, and live social — built for daily use, not toy demos.
 
@@ -137,7 +137,7 @@
 
 ---
 
-### 💰 **Pocket** — *Financial OS for indie makers and creators*
+### <img src="assets/icons/pocket.png" width="28" alt="Pocket icon"/> **Pocket** — *Financial OS for indie makers and creators*
 
 > The dashboard I wished existed when I started shipping things. Money + audience + AI advice, all in one place.
 
@@ -159,7 +159,7 @@
 
 ---
 
-### 🪝 **Snag** — *Self-hosted media downloader, three destinations*
+### <img src="assets/icons/snag.png" width="28" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
 
 > Paste a URL → pick a destination → stream the file. No public services, no leaks, runs on my own machine.
 
@@ -203,7 +203,7 @@
 
 ---
 
-### 🏋️ **Fit4** — *Fitness + habit tracking, social-first*
+### <img src="assets/icons/fit4.png" width="28" alt="Fit4 icon"/> **Fit4** — *Fitness + habit tracking, social-first*
 
 > Workouts you actually log, habits that actually stick, friends keeping you honest.
 
