@@ -159,7 +159,7 @@
 
 ---
 
-### <img src="assets/icons/snag.png" width="28" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
+### <img src="assets/icons/snag.svg" width="28" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
 
 > Paste a URL → pick a destination → stream the file. No public services, no leaks, runs on my own machine.
 
