@@ -185,7 +185,7 @@
 
 ---
 
-### 🌐 [**Portfolio — shinka.ca**](https://shinka.ca) — *Personal site, designed like software*
+### <img src="assets/icons/portfolio.png" width="28" alt="Shinka portfolio icon"/> [**Portfolio — shinka.ca**](https://shinka.ca) — *Personal site, designed like software*
 
 > Not a CV. A piece of software you visit.
 
