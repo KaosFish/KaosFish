@@ -99,7 +99,7 @@
 
 ## 🚧 Featured Projects
 
-### <img src="assets/icons/mizan.png" width="28" style="vertical-align: middle;" alt="Mizan icon"/> **Mizan** — *Privacy-first Muslim prayer companion (SwiftUI)*
+### <img src="assets/icons/mizan.png" width="32" align="absmiddle" alt="Mizan icon"/> **Mizan** — *Privacy-first Muslim prayer companion (SwiftUI)*
 
 > Built ground-up in SwiftUI with **zero third-party SDKs**. Fully offline, no accounts, no tracking, no ads.
 
@@ -119,7 +119,7 @@
 
 ---
 
-### <img src="assets/icons/moshimosh.png" width="28" style="vertical-align: middle;" alt="MoshiMosh icon"/> **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
+### <img src="assets/icons/moshimosh.png" width="32" align="absmiddle" alt="MoshiMosh icon"/> **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
 
 > A gamified learning platform with progression, competition, and live social — built for daily use, not toy demos.
 
@@ -141,7 +141,7 @@
 
 ---
 
-### <img src="assets/icons/pocket.png" width="28" style="vertical-align: middle;" alt="Pocket icon"/> **Pocket** — *Financial OS for indie makers and creators*
+### <img src="assets/icons/pocket.png" width="32" align="absmiddle" alt="Pocket icon"/> **Pocket** — *Financial OS for indie makers and creators*
 
 > The dashboard I wished existed when I started shipping things. Money + audience + AI advice, all in one place.
 
@@ -163,7 +163,7 @@
 
 ---
 
-### <img src="assets/icons/snag.svg" width="28" style="vertical-align: middle;" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
+### <img src="assets/icons/snag.svg" width="32" align="absmiddle" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
 
 > Paste a URL → pick a destination → stream the file. No public services, no leaks, runs on my own machine.
 
@@ -185,7 +185,7 @@
 
 ---
 
-### <img src="assets/icons/portfolio.png" width="28" style="vertical-align: middle;" alt="Shinka portfolio icon"/> [**Portfolio — shinka.ca**](https://shinka.ca) — *Personal site, designed like software*
+### <img src="assets/icons/portfolio.png" width="32" align="absmiddle" alt="Shinka portfolio icon"/> [**Portfolio — shinka.ca**](https://shinka.ca) — *Personal site, designed like software*
 
 > Not a CV. A piece of software you visit.
 
@@ -207,7 +207,7 @@
 
 ---
 
-### <img src="assets/icons/fit4.png" width="28" style="vertical-align: middle;" alt="Fit4 icon"/> **Fit4** — *Fitness + habit tracking, social-first*
+### <img src="assets/icons/fit4.png" width="32" align="absmiddle" alt="Fit4 icon"/> **Fit4** — *Fitness + habit tracking, social-first*
 
 > Workouts you actually log, habits that actually stick, friends keeping you honest.
 
