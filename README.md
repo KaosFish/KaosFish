@@ -29,8 +29,8 @@
 ## 👨‍💻 About Me
 
 - 🎓 CS student @ **UTM**, exploring the seam between software, infrastructure, and AI
-- 🛠️ Currently shipping **Mizan** (iOS prayer app), **MoshiMosh** (Japanese learning), **Pocket** (indie-maker finance OS), and **Snag** (self-hosted media downloader)
-- 📱 Native iOS in **SwiftUI**, cross-platform in **Flutter** + **React Native**, web in **Next.js**
+- 🛠️ Currently shipping **Mizan** (iOS prayer app), **Foreman** (construction PM with on-device insights), **Lumette** (event-camera PWA), **MoshiMosh** (Japanese learning), **Pocket** (indie-maker finance OS), and **Snag** (self-hosted media downloader)
+- 📱 Native iOS in **SwiftUI + SwiftData + Vision + SceneKit**, cross-platform in **Flutter** + **React Native**, web in **Next.js**
 - 🤖 Building AI agents with **Claude**, **n8n**, and self-hosted **Ollama**
 - 🐧 Daily driver of **Arch Linux + Hyprland** — terminal-first, dotfile-obsessed
 - 🎯 Goal: ship real products that solve real problems for real people
@@ -58,13 +58,26 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" alt="Android Studio"/>
   <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white&labelColor=000020" height="32" alt="Expo"/>
 </p>
+<p>
+  <em>Apple frameworks:</em>
+  <img src="https://img.shields.io/badge/SwiftData-007AFF?style=flat-square&logo=swift&logoColor=white" height="28" alt="SwiftData"/>
+  <img src="https://img.shields.io/badge/Vision-FF6B6B?style=flat-square&logo=apple&logoColor=white" height="28" alt="Vision"/>
+  <img src="https://img.shields.io/badge/Core%20Image-34C759?style=flat-square&logo=apple&logoColor=white" height="28" alt="Core Image"/>
+  <img src="https://img.shields.io/badge/AVFoundation-FFCA28?style=flat-square&logo=apple&logoColor=black" height="28" alt="AVFoundation"/>
+  <img src="https://img.shields.io/badge/SceneKit-AF52DE?style=flat-square&logo=apple&logoColor=white" height="28" alt="SceneKit"/>
+  <img src="https://img.shields.io/badge/NaturalLanguage-FF9500?style=flat-square&logo=apple&logoColor=white" height="28" alt="NaturalLanguage"/>
+  <img src="https://img.shields.io/badge/ARKit-000000?style=flat-square&logo=apple&logoColor=white" height="28" alt="ARKit"/>
+</p>
 
 ### 🔹 Frontend
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" alt="Next.js"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="40" alt="Vite"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" alt="Tailwind"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framermotion/framermotion-original.svg" width="40" alt="Framer Motion"/>
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white&labelColor=000000" height="32" alt="shadcn/ui"/>
+  <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white" height="32" alt="Radix UI"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma"/>
 </p>
 
@@ -77,6 +90,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" alt="SQLite"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" width="40" alt="Cloudflare"/>
 </p>
+<p><em>Postgres RLS + triggers · Firebase App Check · Fernet at-rest encryption · Cloudflare Tunnel</em></p>
 
 ### 🔹 DevOps & Tools
 <p>
@@ -86,13 +100,17 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" alt="GitHub"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="40" alt="GitHub Actions"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/XcodeGen-1575F9?style=flat-square&logo=xcode&logoColor=white" height="32" alt="XcodeGen"/>
+  <img src="https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white" height="32" alt="Cloudflare Pages"/>
   <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" width="110" alt="n8n"/>
 </p>
 
 ### 🔹 AI & Automation
 - Building **AI agents** with the **Anthropic SDK (Claude)**, **LangChain**, and **n8n**
+- Shipping **MCP servers** that expose app data as tool-calls for any LLM client
 - Running local-first LLM workflows with self-hosted **Ollama**
-- Voice generation via **ElevenLabs** with content-addressable audio hosting on **Cloudflare R2**
+- Voice + audio pipelines: **ElevenLabs** for TTS, **faster-whisper** for STT, **librosa** for beat/tempo analysis
+- Video orchestration: **FFmpeg `filter_complex`** composition + **PySceneDetect** + **MediaPipe** pose tracking
 - Designing custom ChatGPT-style frontends with **Vercel AI SDK** + **CopilotKit**
 
 ---
@@ -223,6 +241,49 @@
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
   <img src="https://img.shields.io/badge/Hive-FFC107?style=flat-square&logo=apachehive&logoColor=black"/>
   <img src="https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+</p>
+
+---
+
+### <img src="assets/icons/foreman.png" width="32" align="absmiddle" alt="Foreman icon"/> **Foreman** — *Construction PM with an on-device insight engine (iOS)*
+
+> Production-grade SwiftUI app for crew scheduling, job costing, and budget watch. Insights run on-device — no cloud, no accounts.
+
+- 📸 **Vision OCR receipt reader** — `VNRecognizeTextRequest` extracts total/date/vendor and logs it as an expense
+- 📊 **Deterministic insight engine** flags budget overruns, projects final cost from burn rate, surfaces overdue tasks with priorities
+- 🏛️ **USDZ + AR jobsite previews** — drop a 3D plan onto a real surface
+- 🛠️ Ships an **MCP server (25 tools)** that exposes the insight engine to any tool-calling LLM client
+- 🌐 EN + TR localized · ~93 Swift files · XcodeGen-driven
+
+<p>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SwiftData-007AFF?style=flat-square&logo=swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vision-FF6B6B?style=flat-square&logo=apple&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ARKit-000000?style=flat-square&logo=apple&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MCP-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XcodeGen-1575F9?style=flat-square&logo=xcode&logoColor=white"/>
+</p>
+
+---
+
+### <img src="assets/icons/lumette.png" width="32" align="absmiddle" alt="Lumette icon"/> **Lumette** — *Event disposable camera, develop the roll later*
+
+> Guests scan a QR → shoot a limited number of frames → host reveals the album later. Web PWA + iOS companion app.
+
+- 📷 **Per-guest shot limits** enforced via Postgres triggers + advisory locks — race-safe, can't be bypassed client-side
+- 🔒 **Delayed reveal gating** via RLS — guests literally cannot read each other's photos until the host flips the switch
+- 🏆 **5-curator voting podium** picks the best shots; auto-builds 🥇🥈🥉 if no votes come in
+- 🧪 **Live security harnesses** (`rls-check`, `curator-check`) run 29 assertions against the real DB on every deploy
+- 🌐 EN + TR · installable PWA · SwiftUI iOS companion
+
+<p>
+  <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL%20RLS-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white"/>
 </p>
 
 ---
