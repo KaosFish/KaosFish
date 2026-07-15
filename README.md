@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Hi 👋, I'm Enes 🔹</h1>
-<h3 align="center">🚀 CS Student • iOS + Flutter Dev • Full-Stack Builder • AI Tinkerer</h3>
+<h3 align="center">🚀 CS Student @ UTM • Founder of Shinka • iOS + Flutter + Full-Stack • AI Tinkerer</h3>
 
 <p align="center">
   <i>"Life is not a problem to be solved, but a reality to be experienced."</i>
@@ -16,23 +16,18 @@
   <a href="https://shinka.ca" target="_blank">
     <img src="https://img.shields.io/badge/shinka.ca-111111.svg?&style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
-  <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white"/>
-  </a>
-  <a href="https://x.com/YOURHANDLE" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-000000.svg?&style=for-the-badge&logo=x&logoColor=white"/>
-  </a>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🎓 CS student @ **UTM**, exploring the seam between software, infrastructure, and AI
-- 🛠️ Currently shipping **Mizan** (iOS prayer app), **MoshiMosh** (Japanese learning), **Pocket** (indie-maker finance OS), and **Snag** (self-hosted media downloader)
+- 🎓 CS student @ **UTM**, exploring the seam between software, design, and AI
+- 🛠️ Currently shipping **Mizan** (iOS prayer companion, final push to the App Store), **MoshiMosh** (Japanese learning), **Pocket** (indie-maker finance OS), and **GymVro** (pastel pocket gym)
+- 🏪 Running **Hit & Go**: a web studio crafting premium sites for local GTA businesses, first clients signed
 - 📱 Native iOS in **SwiftUI**, cross-platform in **Flutter** + **React Native**, web in **Next.js**
-- 🤖 Building AI agents with **Claude**, **n8n**, and self-hosted **Ollama**
-- 🐧 Daily driver of **Arch Linux + Hyprland** — terminal-first, dotfile-obsessed
+- 🤖 Agentic engineering with **Claude Code**: multi-agent fleets, custom skills, MCP servers, Telegram-bot automations
+- 🐧 Daily driver of **Arch Linux + Hyprland**, terminal-first, dotfile-obsessed
 - 🎯 Goal: ship real products that solve real problems for real people
 
 ---
@@ -66,6 +61,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" alt="Tailwind"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framermotion/framermotion-original.svg" width="40" alt="Framer Motion"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" alt="Figma"/>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" height="32" alt="GSAP"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" height="32" alt="Three.js"/>
 </p>
 
 ### 🔹 Backend & Data
@@ -90,24 +87,25 @@
 </p>
 
 ### 🔹 AI & Automation
-- Building **AI agents** with the **Anthropic SDK (Claude)**, **LangChain**, and **n8n**
-- Running local-first LLM workflows with self-hosted **Ollama**
+- Agentic engineering with **Claude Code** + the **Anthropic SDK**: multi-agent fleets, custom skills, and **MCP** servers (including a code-graph memory indexed over my repos)
+- A small **Telegram bot fleet** for idea capture and tool discovery: deterministic Python transports, LLM brains
 - Voice generation via **ElevenLabs** with content-addressable audio hosting on **Cloudflare R2**
-- Designing custom ChatGPT-style frontends with **Vercel AI SDK** + **CopilotKit**
+- Local-first LLM workflows with self-hosted **Ollama**
 
 ---
 
 ## 🚧 Featured Projects
 
-### <img src="assets/icons/mizan.png" width="32" align="absmiddle" alt="Mizan icon"/> **Mizan** — *Privacy-first Muslim prayer companion (SwiftUI)*
+### <img src="assets/icons/mizan.png" width="32" align="absmiddle" alt="Mizan icon"/> **Mizan** · *Privacy-first Muslim prayer companion (SwiftUI)*
 
-> Built ground-up in SwiftUI with **zero third-party SDKs**. Fully offline, no accounts, no tracking, no ads.
+> Built ground-up in SwiftUI with **zero third-party SDKs**. Fully offline, bilingual (EN + TR), no accounts, no tracking, no ads. Final push to the App Store.
 
 - ⏱️ Live prayer-time countdown with arc-progress ring and **forbidden-time windows** (Fajr/Asr)
+- 🔴 Prayer **Live Activities**: a lock-screen countdown that arms near prayer time and bows out after the adhan
+- 🕌 Interactive **3D prayer & wudu demonstrator** with skinned characters and staged step-by-step transitions
 - 🧭 Magnetometer-backed **Qibla compass** with Kaaba marker + distance to Makkah
-- 📖 Full **114-surah Quran reader** (Arabic + transliteration + English) with persistent bookmarks
-- 📿 Tasbih counter with celebration-burst animation, Hijri calendar with **Umm al-Qura** calculation
-- 📚 ~160 Swift files across 17 feature folders · built with XcodeGen
+- 📖 Full **114-surah Quran reader** (Arabic + transliteration + English) with verse-by-verse recitation audio and persistent bookmarks
+- 📿 Tasbih, **Umm al-Qura** Hijri calendar, hadith, memorization, journal, stats: 240+ Swift files across 21 feature folders · built with XcodeGen
 
 <p>
   <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
@@ -119,9 +117,9 @@
 
 ---
 
-### <img src="assets/icons/moshimosh.png" width="32" align="absmiddle" alt="MoshiMosh icon"/> **MoshiMosh** — *Production Japanese learning app with leagues + real-time social*
+### <img src="assets/icons/moshimosh.png" width="32" align="absmiddle" alt="MoshiMosh icon"/> **MoshiMosh** · *Production Japanese learning app with leagues + real-time social*
 
-> A gamified learning platform with progression, competition, and live social — built for daily use, not toy demos.
+> A gamified learning platform with progression, competition, and live social: built for daily use, not toy demos.
 
 - 🇯🇵 Adaptive **Kanji ↔ Kana ↔ Romaji** rendering tuned to user reading preference
 - 🎮 **Match Madness** + **Careless Maniac** mini-games + **Memory-Weave** personal mnemonics
@@ -141,7 +139,7 @@
 
 ---
 
-### <img src="assets/icons/pocket.png" width="32" align="absmiddle" alt="Pocket icon"/> **Pocket** — *Financial OS for indie makers and creators*
+### <img src="assets/icons/pocket.png" width="32" align="absmiddle" alt="Pocket icon"/> **Pocket** · *Financial OS for indie makers and creators*
 
 > The dashboard I wished existed when I started shipping things. Money + audience + AI advice, all in one place.
 
@@ -163,7 +161,7 @@
 
 ---
 
-### <img src="assets/icons/snag.svg" width="32" align="absmiddle" alt="Snag icon"/> **Snag** — *Self-hosted media downloader, three destinations*
+### <img src="assets/icons/snag.svg" width="32" align="absmiddle" alt="Snag icon"/> **Snag** · *Self-hosted media downloader, three destinations*
 
 > Paste a URL → pick a destination → stream the file. No public services, no leaks, runs on my own machine.
 
@@ -185,14 +183,16 @@
 
 ---
 
-### <img src="assets/icons/portfolio.png" width="32" align="absmiddle" alt="Shinka portfolio icon"/> [**Portfolio — shinka.ca**](https://shinka.ca) — *Personal site, designed like software*
+### <img src="assets/icons/portfolio.png" width="32" align="absmiddle" alt="Shinka portfolio icon"/> [**Portfolio · shinka.ca**](https://shinka.ca) · *Personal site, designed like software*
 
 > Not a CV. A piece of software you visit.
 
-- 🌗 Dark/light theme with `prefers-color-scheme` detection
-- 🇯🇵 Bilingual **EN/JA** content via next-intl with locale-aware routing
-- 🎬 **Framer Motion** + **GSAP** choreography on every section
-- 🎮 Canvas-based **Connect Four** hidden inside (yes, really — 465 lines of game logic)
+- ✍️ Self-writing **進化 calligraphy** title, sakura cursor trail, and a Rive balloon drifting through the hero
+- 🌗 Three themes (light · midnight · sepia) with `prefers-color-scheme` detection
+- 🇯🇵 Bilingual **EN / 日本語** content via next-intl with locale-aware routing
+- 🎬 **GSAP** + **Framer Motion** choreography on every section
+- 🎮 Hidden easter eggs, including a full canvas **Connect Four** (465 lines of game logic)
+- ⚖️ A `/legal` hub serving branded privacy + terms pages for every Shinka app
 - 🚀 Static export, deployed via **Cloudflare Pages**
 
 <p>
@@ -207,23 +207,34 @@
 
 ---
 
-### <img src="assets/icons/fit4.png" width="32" align="absmiddle" alt="Fit4 icon"/> **Fit4** — *Fitness + habit tracking, social-first*
+### <img src="assets/icons/gymvro.png" width="32" align="absmiddle" alt="GymVro icon"/> **GymVro** · *Your pastel pocket gym: train, eat, streak, beat the boss*
 
-> Workouts you actually log, habits that actually stick, friends keeping you honest.
+> A cozy, kawaii-styled fitness companion that turns consistency into a game you want to keep playing.
 
-- 📊 Offline-first workout logging via **Hive**, Firestore-synced social graph
-- 🔑 Multi-auth: **Google + Apple + Facebook** + email/password
-- 🏆 Leaderboards, habit streaks with weekly review
-- 🥗 Diet tab with meal logging + calorie tracking
-- 🧠 Clean Provider state with separated GymProvider / HabitProvider / ThemeProvider
+- 💪 **Gym Mode** set-by-set logging with muscle-group focus chips and a weekly "vs last week" volume trend
+- 🍜 Food scanning + live nutrition, recipes, and exercises from free public APIs, each cached with graceful offline fallback
+- 🔥 Streaks, achievements, personal records, and a **boss battle** that only takes damage when you show up
+- 👥 Real-time **Squads** social layer with email / Google / Apple auth on Firebase
+- 🎨 Semantic pastel design system with a custom `Gv*` component library, six swappable themes, zero hardcoded colors
+- 🧪 **496 tests** across 88 files, `flutter analyze` clean
 
 <p>
   <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Hive-FFC107?style=flat-square&logo=apachehive&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Provider-7A6CD0?style=flat-square&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/tests-496%20passing-3E9B57?style=flat-square"/>
 </p>
+
+---
+
+## 🧪 Also on the bench
+
+- 🕶️ **Immersa** · iOS app that turns Insta360 360° shots into navigable virtual tours (SwiftUI + SceneKit + SwiftData)
+- 📸 **Lumette** · a disposable camera for any event: guests scan a QR, shoot a few frames, nobody sees the photos until the host reveals the album
+- 👷 **Foreman** · native iOS construction project management: projects, crew, costs, receipt OCR, and an insight/report engine
+- 🖊️ **OpenBoard** · a whiteboard app by Shinka, built on the open-source Excalidraw editor
+- 🎬 **Jarvis** · AI video editor: clips + music in, a beat-synced captioned 9:16 short out (FFmpeg renderer, Claude planner/critic)
 
 ---
 
