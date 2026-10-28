@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Enes Kirgil — moonlit sakura banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Enes Kirgil · moonlit sakura banner">
   <!--
     Moonlit night sakura. Deep midnight sky, a glowing moon on the left,
     silvery sakura branch curving in from the upper-right, blossoms catching
@@ -31,6 +31,22 @@
       <circle r="2.7" fill="#FF8FA3"/>
       <circle r="1.2" fill="#2A0810"/>
     </g>
+    <!-- Koi: shared shapes, gradients and clip -->
+    <path id="koiBody" d="M 42 0 C 42 -5 34 -9.5 22 -11 C 8 -12.5 -8 -9 -22 -4 L -30 -2 L -30 2 L -22 4 C -8 9 8 12.5 22 11 C 34 9.5 42 5 42 0 Z"/>
+    <clipPath id="koiClip"><use href="#koiBody"/></clipPath>
+    <linearGradient id="koiSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFBEA" stop-opacity="0.55"/>
+      <stop offset="45%"  stop-color="#FFFBEA" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0B1530" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="koiTail" gradientUnits="userSpaceOnUse" x1="-28" y1="0" x2="-88" y2="0">
+      <stop offset="0%"   stop-color="#F4EEE6" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F4EEE6" stop-opacity="0.5"/>
+    </linearGradient>
+    <radialGradient id="koiGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#BFD6FF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#BFD6FF" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <!-- Night sky -->
@@ -79,7 +95,7 @@
     <circle cx="312" cy="105" r="2.5" fill="#D8C088" opacity="0.3"/>
   </g>
 
-  <!-- Sakura branch — silvery so it reads against the night sky -->
+  <!-- Sakura branch: silvery so it reads against the night sky -->
   <g fill="none" stroke="url(#branch)" stroke-linecap="round">
     <path d="M 1200 30 Q 1080 55 980 75 Q 870 90 760 80" stroke-width="9"/>
     <path d="M 980 75 Q 990 110 985 145" stroke-width="5"/>
@@ -102,7 +118,64 @@
     <use href="#blossom" transform="translate(925 80)  scale(1.5)"/>
   </g>
 
-  <!-- Falling petals — moonlit pale pink palette pops against dark sky -->
+  <!-- Sky koi: glides slowly below the name, S-curve, enters left and exits right (22.5s loop) -->
+  <g fill="none" stroke="#BFD6FF" stroke-width="1">
+    <!-- Ripples left along the path, timed to the koi -->
+      <circle cx="-37" cy="282" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.0844;0.2178;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.0844;0.0884;0.2178;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="-7" cy="281" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.1044;0.2378;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.1044;0.1084;0.2378;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="121" cy="279" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.1911;0.3244;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.1911;0.1951;0.3244;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="151" cy="280" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.2111;0.3444;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.2111;0.2151;0.3444;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="279" cy="283" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.2978;0.4311;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.2978;0.3018;0.4311;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="308" cy="285" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.3178;0.4511;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.3178;0.3218;0.4511;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="437" cy="291" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.4044;0.5378;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.4044;0.4084;0.5378;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="466" cy="293" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.4244;0.5578;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.4244;0.4284;0.5578;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="595" cy="298" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.5111;0.6444;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.5111;0.5151;0.6444;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="624" cy="298" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.5311;0.6644;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.5311;0.5351;0.6644;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="753" cy="300" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.6178;0.7511;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.6178;0.6218;0.7511;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="782" cy="299" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.6378;0.7711;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.6378;0.6418;0.7711;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="911" cy="296" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.7244;0.8578;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.7244;0.7284;0.8578;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="940" cy="294" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.7444;0.8778;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.7444;0.7484;0.8778;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1068" cy="286" r="0" opacity="0"><animate attributeName="r" values="0;0;20;20" keyTimes="0;0.8311;0.9644;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.34;0;0" keyTimes="0;0.8311;0.8351;0.9644;1" dur="22.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1098" cy="284" r="0" opacity="0"><animate attributeName="r" values="0;0;13;13" keyTimes="0;0.8511;0.9844;1" calcMode="spline" keySplines="0 0 1 1;.15 .6 .35 1;0 0 1 1" dur="22.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;0.22;0;0" keyTimes="0;0.8511;0.8551;0.9844;1" dur="22.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <g opacity="0.9">
+    <g>
+      <animateMotion dur="22.5s" repeatCount="indefinite" rotate="auto" path="M -140 288 C 120 270 280 284 450 292 C 620 300 800 304 980 292 C 1160 280 1200 276 1340 290"/>
+      <g transform="scale(0.8)">
+        <ellipse cx="-8" cy="0" rx="80" ry="30" fill="url(#koiGlow)"/>
+        <!-- Whole body sways gently, head steady -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-2.5 30 0;2.5 30 0;-2.5 30 0" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" dur="1.2s" repeatCount="indefinite"/>
+          <!-- Tail: flowing, two linked segments -->
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-12 -29 0;12 -29 0;-12 -29 0" begin="-0.9s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" dur="1.2s" repeatCount="indefinite"/>
+            <path d="M -28 -1.8 C -36 -2.5 -44 -4 -54 -5.5 L -54 5.5 C -44 4 -36 2.5 -28 1.8 Z" fill="url(#koiTail)"/>
+            <g>
+              <animateTransform attributeName="transform" type="rotate" values="-9 -54 0;9 -54 0;-9 -54 0" begin="-0.6s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" dur="1.2s" repeatCount="indefinite"/>
+              <path d="M -54 -5.5 C -63 -6 -72 -12 -86 -22 C -80 -12 -80 -5 -73 0 C -80 5 -80 12 -86 22 C -72 12 -63 6 -54 5.5 Z" fill="url(#koiTail)"/>
+            </g>
+          </g>
+          <!-- Pectoral fins -->
+          <g fill="#F4EEE6" fill-opacity="0.72">
+            <path d="M 20 -9 C 16 -16 8 -21 -2 -24 C 2 -18 6 -13 10 -8 Z"/>
+            <path d="M 20 9 C 16 16 8 21 -2 24 C 2 18 6 13 10 8 Z"/>
+          </g>
+          <!-- Body, kohaku patches, moonlight sheen -->
+          <use href="#koiBody" fill="#F4EEE6"/>
+          <g clip-path="url(#koiClip)" fill="#E8553A" fill-opacity="0.95">
+            <path d="M 35 -3 C 31 -10 22 -10 18 -5 C 15 0 19 6 27 6 C 33 6 37 3 35 -3 Z"/>
+            <path d="M 8 -14 C 0 -13 -7 -8 -4 -2 C -2 3 3 5 6 10 C 10 14 15 9 13 3 C 12 -2 15 -10 8 -14 Z"/>
+            <path d="M -9 -10 C -16 -9 -21 -5 -18 -2 C -15 1 -9 0 -8 -4 C -7 -6 -7 -9 -9 -10 Z"/>
+          </g>
+          <use href="#koiBody" fill="url(#koiSheen)"/>
+          <path d="M 36 -6 C 22 -9.5 0 -9 -16 -4.5 C 0 -7 22 -7.4 36 -6 Z" fill="#FFFFFF" fill-opacity="0.35"/>
+          <g fill="#2A0810"><circle cx="31" cy="-7" r="1.3"/><circle cx="31" cy="7" r="1.3"/></g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Falling petals: moonlit pale pink palette pops against dark sky -->
   <g>
     <use href="#petal" fill="#F8D9DE" opacity="0.9">
       <animateMotion dur="9s" repeatCount="indefinite" path="M 60 -20 Q 90 100 80 360"/>
@@ -178,7 +251,7 @@
     </use>
   </g>
 
-  <!-- Name — warm cream-gold against the night sky -->
+  <!-- Name: warm cream-gold against the night sky -->
   <text x="600" y="195" text-anchor="middle"
         font-family="Georgia, 'Times New Roman', serif"
         font-size="84" font-weight="700"
